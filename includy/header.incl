@@ -1,0 +1,9 @@
+<header>
+    <p><i class='fa-solid fa-user'></i> 
+    <?php
+        session_start();
+        echo "wiataj ".$_SESSION['user'];
+        echo "<a href=''> wyloguj</a>"
+        
+    ?></p>
+</header>
